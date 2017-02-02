@@ -39,6 +39,6 @@ if($_FILES)
     
     echo "Загружаемое изображение: '"
        . "$final_name' и его размер = $file_size bytes <br>"
-       . "<img src='$final_name'>";
+       . "<img src='$final_name'></body></html>"
 }
 
