@@ -14,8 +14,8 @@ echo <<<_END
 </head>
 <body>
 <form method = 'post' action = 'upload_two.php' enctype = 'multipart/form-data'>
-Загрузить: <input type = 'file' name = 'filename' size = '10'><br><br>
-<input type = 'submit' value = 'Загрузить'>
+Г‡Г ГЈГ°ГіГ§ГЁГІГј: <input type = 'file' name = 'filename' size = '10'><br><br>
+<input type = 'submit' value = 'Г‡Г ГЈГ°ГіГ§ГЁГІГј'>
 </form>
 _END;
 
@@ -37,8 +37,8 @@ if($_FILES)
     move_uploaded_file($_FILES['filename']['tmp_name'], $final_name); //saving file with given name to hard driver
     $file_size = $_FILES['filename']['size'];
     
-    echo "Загружаемое изображение: '"
-       . "$final_name' и его размер = $file_size bytes <br>"
+    echo "Г‡Г ГЈГ°ГіГ¦Г ГҐГ¬Г®ГҐ ГЁГ§Г®ГЎГ°Г Г¦ГҐГ­ГЁГҐ: '"
+       . "$final_name' ГЁ ГҐГЈГ® Г°Г Г§Г¬ГҐГ° = $file_size bytes <br>"
        . "<img src='$final_name'>";
 }
 
