@@ -2,7 +2,7 @@
 	Your text:<input type = "text" name = "string" >
 	<input type = "submit" value = "Submit">
 </form>
-
+ 
 <?php
 
 if (isset($_GET['string']) && !empty($_GET['string'])){
