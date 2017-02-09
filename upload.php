@@ -1,7 +1,7 @@
 <?php
 
 /* 
- * This is a file uploader, it uploads a file on server and change
+ * This is a file uploader,  it uploads a file on server and change
  * its name to an order number that began from 1. The main idea is that 
  * all uploaded files on the server will be numbered by their names.
  */
